@@ -1,4 +1,4 @@
-public class sum1
+/*public class sum1
 {  
   void main()
   {
@@ -12,6 +12,30 @@ public class sum1
        } 
  
  System.out.println(sum);
+  }
+  
+  public static void main(String args[])
+  {
+  sum1 me=new sum1();
+  me.main();
+  }
+  
+
+} */
+
+public class sum1
+{  
+  void main()
+  {
+    int sum=0;
+    int num=23;
+    
+    while(num>0)
+    {
+      sum=num%10;
+      num=num/10;
+    }
+System.out.println(sum);
   }
   
   public static void main(String args[])

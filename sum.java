@@ -19,8 +19,8 @@ public class sum
     }
    
    }
-   public static void main(String args[])
+   public static void main(String args[]){
      sum me=new sum();
        me.main();
 }
-
+}
