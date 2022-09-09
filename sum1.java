@@ -27,13 +27,21 @@ public class sum1
 {  
   void main()
   {
+    int num=4216;
     int sum=0;
-    int num=23;
+    int a=0;
+    int b=0;
+    int c=0;
     
     while(num>0)
     {
-      sum=num%10;
+      sum=a+num%10;
       num=num/10;
+      
+       a=sum;
+      // b=b+sum;
+      
+      if (a=   
     }
 System.out.println(sum);
   }
