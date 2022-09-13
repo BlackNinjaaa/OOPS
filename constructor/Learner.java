@@ -12,7 +12,7 @@ public class Learner
     System.out.println("Id_no:"+Id_no+"\n"+"Age:"+age+"\n"+"Batch No:"+Batch_no+"\n"+"Course:"+course+"\n"+"Gender:"+gender+"\n"+"Aadhar:"+aadhar_no+"\n"); 
   }
   
- /* Learner() // Constructor (Non-parametarized constructor)
+  Learner() // Constructor (Non-parametarized constructor)
   {
     System.out.println("Welcome to our Institute");
   }
@@ -35,7 +35,7 @@ public class Learner
     this.gender= gender;
     this.aadhar_no = aadhar_no;
   
-  } */
+  } 
   
     public static void main(String args[])
   {
